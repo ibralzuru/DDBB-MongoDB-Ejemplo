@@ -35,5 +35,7 @@ y creo el .then y el .catch  (en vez de localhost si no func apongo 127.0.0.1)
 
 15) creo .env.example meto las claves de las variables para q mi app funcione, sirve para que otro usuario pueda saber el nombre de las variables para que copie la app
 
+16) pillo lo q esta en mongoose.connect() y lo copio en .env y en mongoose.connect pongo process.env.MONGO_URI (el nombre de la variable)
 
+17) creo la variable port que pille desde el .env y cambio el app.listen del index y añado port en vez del numero del puerto
 
