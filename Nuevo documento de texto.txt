@@ -1,0 +1,39 @@
+1) terminal de windows y escribo "mongod"
+
+2)abro mi projecto en vsc 
+
+3) git init --> inicio el repositorio de git
+4) npm ini --yes --> para crear el package.json
+5) cambio en package json --> cambio name description y author
+
+6) npm i express y nodemon --> nodemon nos tiene siempre act el sv (inicializos express y nodemon)
+
+7) creo .gitignore 
+
+8) creo index.js
+
+
+9) añado "dev": "nodemon index.js a mi package.json
+
+
+10) abro el compass de mongo y inicializo
+
+(para instalar mongoose en ordena npm i mongoose)
+
+
+
+11) importo en el index esto de mongoose :    mongoose.connect('mongodb://127.0.0.1:27017/test')
+y creo el .then y el .catch  (en vez de localhost si no func apongo 127.0.0.1)
+
+
+
+12) npm i dotenv inicializo dotenv
+
+13) meto require('dotenv').config(); // para q funcione dotenv en mi index.js
+
+14) creo .env y .env.example
+
+15) creo .env.example meto las claves de las variables para q mi app funcione, sirve para que otro usuario pueda saber el nombre de las variables para que copie la app
+
+
+
