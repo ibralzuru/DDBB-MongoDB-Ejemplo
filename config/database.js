@@ -9,4 +9,4 @@ const db = () => mongoose.connect(process.env.MONGO_URI) // aqui ejecuto la cone
     console.log('Error connection to MongoDB',error)
 })
 
-module.exports = db
+module.exports = db // Exporto la constante db con dentro la ejecucion de mongoose.
